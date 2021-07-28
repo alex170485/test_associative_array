@@ -1,0 +1,28 @@
+.testClass {
+  font-weight: bold;
+  color: red;
+}
+
+.testClassUpd {
+  @extend .testClass;
+  color: blue;
+}
+
+.testClassGreen {
+  @extend .testClass;
+  font-size: 24px;
+  color: green;
+  font-weight: normal;
+}
+
+.sizeSmall {
+  padding: 20px;
+}
+
+.sizeMedium {
+  padding: 40px;
+}
+
+.sizeBig {
+  padding: 60px;
+}
